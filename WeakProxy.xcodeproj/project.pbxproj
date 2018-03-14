@@ -13,6 +13,7 @@
 		4E36F75820590D04007695DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E36F75720590D04007695DB /* Assets.xcassets */; };
 		4E36F75B20590D04007695DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E36F75920590D04007695DB /* LaunchScreen.storyboard */; };
 		4E36F75E20590D04007695DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E36F75D20590D04007695DB /* main.m */; };
+		4E36F76720590D22007695DB /* TWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E36F76620590D22007695DB /* TWeakProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4E36F75A20590D04007695DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E36F75C20590D04007695DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E36F75D20590D04007695DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E36F76520590D22007695DB /* TWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWeakProxy.h; sourceTree = "<group>"; };
+		4E36F76620590D22007695DB /* TWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWeakProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		4E36F74D20590D04007695DB /* WeakProxy */ = {
 			isa = PBXGroup;
 			children = (
+				4E36F76420590D0A007695DB /* WeakProxy */,
 				4E36F74E20590D04007695DB /* AppDelegate.h */,
 				4E36F74F20590D04007695DB /* AppDelegate.m */,
 				4E36F75120590D04007695DB /* ViewController.h */,
@@ -67,6 +71,15 @@
 				4E36F75920590D04007695DB /* LaunchScreen.storyboard */,
 				4E36F75C20590D04007695DB /* Info.plist */,
 				4E36F75D20590D04007695DB /* main.m */,
+			);
+			path = WeakProxy;
+			sourceTree = "<group>";
+		};
+		4E36F76420590D0A007695DB /* WeakProxy */ = {
+			isa = PBXGroup;
+			children = (
+				4E36F76520590D22007695DB /* TWeakProxy.h */,
+				4E36F76620590D22007695DB /* TWeakProxy.m */,
 			);
 			path = WeakProxy;
 			sourceTree = "<group>";
@@ -143,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E36F75320590D04007695DB /* ViewController.m in Sources */,
+				4E36F76720590D22007695DB /* TWeakProxy.m in Sources */,
 				4E36F75E20590D04007695DB /* main.m in Sources */,
 				4E36F75020590D04007695DB /* AppDelegate.m in Sources */,
 			);
